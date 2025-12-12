@@ -1,4 +1,4 @@
-import aboutImage from "@/assets/foto-1.jpg";
+import aboutImage from "@/assets/profile.jpg";
 
 const About = () => {
   return (
@@ -7,11 +7,11 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div className="relative animate-fade-in">
-            <div className="aspect-square rounded-2xl overflow-hidden shadow-soft">
+            <div className="rounded-full  overflow-hidden shadow-soft">
               <img
                 src={aboutImage}
                 alt="Beleza real e diversa"
-                className="w-full h-full object-cover"
+                className="w-full h-full rounded-full object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary/20 rounded-full blur-3xl" />

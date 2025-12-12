@@ -16,7 +16,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: "E-mail",
-      value: "cazuasalao@gmail.com.br",
+      value: "salaocazua@gmail.com",
     },
     {
       icon: Instagram,
